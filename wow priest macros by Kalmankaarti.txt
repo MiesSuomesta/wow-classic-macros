@@ -1,0 +1,30 @@
+Macrot:
+
+Priest Buffi:
+
+#showtooltip Priest Dungeon buffit
+/target player
+/castsequence reset=target Power Word: Fortitude, Inner Fire, Shadowguard, Power Word: Shield
+
+Res+Heal
+#showtooltip Resurrect and Heal
+/castsequence [@party1, dead] [@party2, dead] [@party3, dead] [@party4, dead] Resurrection, Heal
+
+party buffit:
+#showtooltip Party Shields
+/castsequence reset=target  [target=player] Power Word: Shield;  [target=party1] Power Word: Shield; [target=party2] Power Word: Shield;  [target=party3] Power Word: Shield; [target=party4] Power Word: Shield
+
+#showtooltip Party Buffs
+/castsequence reset=target [target=player] Power Word: Fortitude;  [target=party1] Power Word: Fortitude; [target=party2] Power Word: Fortitude;  [target=party3] Power Word: Fortitude; [target=party4] Power Word: Fortitude
+
+Smite or Lesser Heal:
+/cast [harm]Smite; [help] Lesser Heal
+
+Smite or Heal 1:
+/cast [harm]Smite; [help] Heal(Rank 1)
+
+Smite or Heal max:
+/cast [harm]Smite; [help] Heal
+
+
+
