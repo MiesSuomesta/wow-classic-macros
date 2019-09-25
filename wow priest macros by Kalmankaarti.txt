@@ -16,7 +16,7 @@ Nice to everyone:
 /hi
 /cast Power Word: Fortitude;
 
-party buffit:
+party buffs:
 #showtooltip Party Shields
 /targetparty
 /cast Power Word: Shield;
@@ -25,14 +25,19 @@ party buffit:
 /targetparty
 /cast Power Word: Fortitude;
 
+Healin/Smiting stuff:
 Smite or Lesser Heal:
-/cast [harm]Smite; [help] Lesser Heal
+/cast [harm]Smite; [help] Lesser Heal; Heal
 
 Smite or Heal 1:
-/cast [harm]Smite; [help] Heal(Rank 1)
+/cast [harm]Smite; [help] Heal(Rank 1); Heal
 
 Smite or Heal max:
-/cast [harm]Smite; [help] Heal
+/cast [harm]Smite; [help] Heal; Heal
 
+#showtooltip Pick up a fight
+/targetenemy
+/castsequence Hex of Weakness, Shadow Word: Pain,  Mind Blast, !Shoot
+/dance
 
 
