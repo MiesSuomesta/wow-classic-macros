@@ -36,8 +36,8 @@ Smite or Heal max:
 /cast [harm]Smite; [help] Heal; Heal
 
 #showtooltip Pick up a fight
-/targetenemy
-/castsequence Hex of Weakness, Shadow Word: Pain,  Mind Blast, !Shoot
+/castsequence reset=target Hex of Weakness, Shadow Word: Pain,  Mind Blast
+
+#showtooltip Shoot & Dance
+/cast !Shoot
 /dance
-
-
